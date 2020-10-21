@@ -22,6 +22,7 @@ public class BoundedWL<E> extends WaitList<E>{
 
     @Override
     public String toString() {
+
         return this.content.toString() + ". Capacity " + this.capacity;
     }
 }
